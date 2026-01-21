@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,47 +32,220 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar">
-      <div class="container-width nav">
-        <div class="menu-left">
-          <ul>
-            <li>WOMEN</li>
-            <li>MEN</li>
-            <li>BOY</li>
-            <li>GIRL</li>
-          </ul>
-        </div>
-        <div class="iconlist"><i class="fa-solid fa-bars"></i></div>
-        <div class="logo">
-          <img
-            src="https://zandokh.com/images/ZANDO-NEW-LOGO-2025.png"
-            alt=""
-          />
-        </div>
-        <div class="menu-right">
-          <div class="search">
-            <span class="search-icon"
-              ><i class="fa-solid fa-magnifying-glass"></i
-            ></span>
-            <input class="search-input" type="search" placeholder="Search" />
-          </div>
-          <div class="icon">
+      <div class="shadow">
+        <div class="container-width nav">
+          <div class="menu-left">
             <ul>
-              <li><i class="fa-regular fa-bell"></i></li>
-              <li><i class="fa-regular fa-heart"></i></li>
-              <li><i class="fa-solid fa-bag-shopping"></i></li>
+              <li>WOMEN</li>
+              <li>MEN</li>
+              <li>BOY</li>
+              <li>GIRL</li>
             </ul>
           </div>
-          <div class="ir">
-            <ul>
-              <li>LOGIN</li>
-              <li>REGISTER</li>
-            </ul>
+          <div class="iconlist"><i class="fa-solid fa-bars"></i></div>
+          <div class="logo">
+            <img
+              src="https://zandokh.com/images/ZANDO-NEW-LOGO-2025.png"
+              alt=""
+            />
+          </div>
+          <div class="menu-right">
+            <div class="search">
+              <span class="search-icon"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+              <input class="search-input" type="search" placeholder="Search" />
+            </div>
+            <div class="icon">
+              <ul>
+                <li><i class="fa-regular fa-bell"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><i class="fa-solid fa-bag-shopping"></i></li>
+              </ul>
+            </div>
+            <div class="ir">
+              <ul>
+                <li>LOGIN</li>
+                <li>REGISTER</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+      <div
+        class="container-width"
+        style="background-color: rgb(0, 0, 0); height: 30px"
+      ></div>
     </nav>
+    <section class="container-width hero">
+      <swiper-container class="mySwiper">
+        <swiper-slide>
+          <img
+            src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start%20from%2050/35-OFF_Main_ZANDO%20(2160x1066).jpg?fbclid=IwY2xjawPb_UJleHRuA2FlbQIxMABicmlkETFBM1dUNTY0N2Z2MXlKMkdTc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlaF2le3zdcrOXr3EwL02YNTaz7Qu8xNrSe95vU79el67YmeB_07vn9FVxxj_aem_8Frw5tvFbDYo8-xhiCZ2vg"
+            alt=""
+          />
+          <div class="hero-btn">
+            <button>Shop Men</button>
+            <button>Shop women</button>
+          </div>
+        </swiper-slide>
+        <swiper-slide
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start%20from%2050/50-OFF_Main_ZANDO%20(2160x1066).jpg?fbclid=IwY2xjawPb_adleHRuA2FlbQIxMABicmlkETFKZ0NNMWhncjlqWG82M2JEc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtts5kp-WKw3cvVQ3tA3ZP7GGMLU8KGzCQT0NIpelgorPcB2wy2vvwxPwEr6_aem_kLG8PxVIiz_tGI9By1ZqHQ"
+            alt=""
+          />
+          <div class="hero-btn">
+            <button>Shop Men</button>
+            <button>Shop women</button>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </section>
+    <div class="brand container-width">
+      <div class="item-brand">
+        <a href=""
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/ZandoBlack0.jpg"
+            alt=""
+        /></a>
+      </div>
+      <div class="item-brand">
+        <a href=""
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/GatoniBlack0.jpg"
+            alt=""
+        /></a>
+      </div>
+      <div class="item-brand">
+        <a href=""
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/361Black0.jpg"
+            alt=""
+        /></a>
+      </div>
+      <div class="item-brand">
+        <a href=""
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/Ten11Black0.jpg"
+            alt=""
+        /></a>
+      </div>
+      <div class="item-brand">
+        <a href=""
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/RoutineBlack0.jpg"
+            alt=""
+        /></a>
+      </div>
+      <div class="item-brand">
+        <a href=""
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/PomeloBlack0.jpg"
+            alt=""
+        /></a>
+      </div>
+      <div class="item-brand">
+        <a href=""
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/TagSpace_10.jpg"
+            alt=""
+        /></a>
+      </div>
+    </div>
+    <section class="container-width style">
+      <swiper-container class="mySwiper" scrollbar-hide="true">
+        <swiper-slide
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/collection/zando%20DH%20website%20banner%20(zando).jpg"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/collection/checkmate%20website%20banner%20(zando).jpg"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/Collection/Run%20into%20prosperity%20Web%20size-(2160-x-534-px).jpg"
+            alt=""
+        /></swiper-slide>
+        <swiper-slide
+          ><img
+            src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/collection/routine%20website%20banner%20(zando).jpg"
+            alt=""
+        /></swiper-slide>
+      </swiper-container>
+    </section>
+    <div class="container-width content-item">
+      <div class="txt-item">
+        <h1>🔥 Best of the Best</h1>
+        <p>Shop more</p>
+      </div>
+    </div>
+    <section class="container-width item">
+      <swiper-container
+        class="mySwiper"
+        pagination="true"
+        pagination-clickable="true"
+        space-between="30"
+        slides-per-view="3"
+      >
+        <swiper-slide>
+          <div class="cart">
+            <div class="img">
+              <img
+                src="https://zandokh.com/image/cache/catalog/products/2026-01/5152505157%20Replace/TAKK9869-cr-450x672.jpg"
+                alt=""
+              />
+              <div class="txt-container">
+                <span class="text-left">
+                  <span>US $18.53</span><span>US $20</span>
+                  <!-- <span>Sport Life T-Shirts With Printed</span> -->
+                </span>
+                <ul>
+                  <li><i class="fa-regular fa-heart"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>Slide 2</swiper-slide>
+        <swiper-slide>Slide 3</swiper-slide>
+        <swiper-slide>Slide 4</swiper-slide>
+        <swiper-slide>Slide 5</swiper-slide>
+        <swiper-slide>Slide 6</swiper-slide>
+        <swiper-slide>Slide 7</swiper-slide>
+        <swiper-slide>Slide 8</swiper-slide>
+        <swiper-slide>Slide 9</swiper-slide>
+      </swiper-container>
+    </section>
   </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
