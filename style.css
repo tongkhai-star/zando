@@ -34,7 +34,6 @@ a {
   display: inline-block;
 }
 .container-width {
-  max-width: 1500px;
   width: 88%;
   margin: auto;
   /* background-color: #752525; */
@@ -46,8 +45,8 @@ a {
 }
 .nav {
   display: flex;
-  /* height: 100%;
-  width: 100vh; */
+  height: 100%;
+  /* width: 100vh; */
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
 }
@@ -62,7 +61,7 @@ a {
   padding: 1.5rem 1rem;
 }
 .menu-left ul li:hover {
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(221, 220, 220);
 }
 .iconlist {
   display: none;
@@ -186,7 +185,7 @@ ul li i:hover {
 .hero-btn button {
   padding: 14px 25px;
   border-radius: 0.5rem;
-  border: black 2px solid;
+  border: rgb(0, 0, 0) 2px solid;
   background-color: transparent;
   transition: all 0.3s;
 }
@@ -215,11 +214,162 @@ ul li i:hover {
 .style {
   height: 300px;
 }
-.txt-item {
+/* .txt-item {
   display: flex;
   padding: 20px;
   justify-content: space-between;
 }
 .item {
   height: 600px;
+} */
+.main-card {
+  height: 650px;
+  background-color: #ffffff;
+}
+.header-main-card {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.header-main-card h1 {
+  font-size: 2.8rem;
+}
+.header-main-card a {
+  color: black;
+  font-size: 1.8rem;
+}
+.body-main-card {
+  background-color: #ffffff;
+  height: auto;
+  display: flex;
+  gap: 1%;
+}
+.card {
+  /*100-3=97/4  */
+  width: 24.25%;
+  height: 450px;
+  background-color: #00ff00;
+  position: relative;
+}
+.img-card {
+  height: 100%;
+}
+.img-card img {
+  height: 100%;
+  width: 100%;
+}
+.card-body {
+  padding: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  height: 25%;
+  background-color: #ffffff;
+}
+.card-txt {
+  width: 85%;
+}
+.price {
+  display: block;
+}
+.price span:first-child {
+  color: #ff0000;
+}
+.price span:last-child {
+  color: #696969;
+  text-decoration: line-through;
+}
+.discount {
+  position: absolute;
+  background-color: #c50000;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 3px;
+  color: #ffffff;
+}
+.brand-cloth {
+  display: flex;
+  flex-direction: column; /* under */
+  align-items: flex-end; /* right */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-align: center;
+  margin-top: 300px;
+}
+.text-cloth {
+  margin-top: 5px;
+}
+.card-body i:hover {
+  background-color: #a3a3a3;
+}
+.body-cencept{
+  background-color: #ffffff;
+  height: auto;
+  display: flex;
+  gap: 1%;
+  margin-top: -10px;
+}
+.cencept{
+  height: 700px;
+  /* background-color: #696969; */
+}
+.new{
+  width: 32.66%;
+  height: 632px;
+  background-color: #00ff00;
+}
+.new img{
+  height: 100%;
+}
+.body-other{
+  background-color: #ffffff;
+  height: auto;
+  display: flex;
+  gap: 1.5%;
+  margin-top: -50px;
+}
+.other{
+  height: 700px;
+  /* background-color: #696969; */
+}
+.tops{
+  width: 49%;
+  height: 690px;
+  background-color: #00ff00;
+}
+.tops img{
+  height: 100%;
+}
+.footer{
+  display: flex;
+  gap: 100px;
+  margin-top: 10px;
+}
+.footer .zando{
+  font-weight: bold;
+}
+.qr img{
+  height: 100px;
+  margin-top: 10px;
+}
+.inloy{
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.infol li i{
+  margin-top: 20px;
+  margin: 4px;
+}
+.brand-media{
+  display: flex;
+  margin-top: 10px;
+}
+.brand-media main p{
+  padding: 2px;
 }
